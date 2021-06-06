@@ -1,0 +1,39 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filme-principal{
+        height: 650px;
+    }
+
+    .botao{
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .botoes{
+        margin-bottom: 50px;
+    }
+
+    .botoes_nav{
+        margin-top: 30px;
+        width: 100px;
+    }
+
+    header .botoes_nav{
+        right: 5%;
+    }
+
+    header .botoes_nav img{
+        position: absolute;
+        
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 70%;
+    }
+}
